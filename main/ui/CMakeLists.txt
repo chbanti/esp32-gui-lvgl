@@ -1,0 +1,21 @@
+SET(SOURCES ui_Screen1.c
+    ui_Screen2.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_898859503.c
+    ui_img_1563899303.c
+    fonts/ui_font_antasilla_24.c
+    fonts/ui_font_broken_12.c
+    fonts/ui_font_bronken.c
+    fonts/ui_font_bruce_forever_39.c
+    fonts/ui_font_monkey_18.c
+    fonts/ui_font_monkey_6.c
+    fonts/ui_font_upperlock_20.c
+    fonts/ui_font_upper_clock_15.c
+    fonts/ui_font_upper_clock_18.c
+    fonts/ui_font_upper_clock_22.c
+    fonts/ui_font_upper_clock_40.c
+    fonts/ui_font_upper_clock_55.c)
+
+add_library(ui ${SOURCES})
